@@ -9,4 +9,6 @@ FROM
  (SELECT s.product_id , SUM(s.amount) 
  AS total_sales
 FROM sales 
-GROUP BY s.product_id) AS avg_total_sales );
+GROUP BY s.product_id) AS avg_total_sales )
+
+
